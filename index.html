@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Tag Meta untuk kebutuhan Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title Bar dan Favicon -->
+    <link rel="shortcut icon" href="aset/favicon.png" />
+    <title>Tambal Ban Online</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="aset/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="landing">
+        <div class="card welcome">
+          <h1>Hai, Selamat Datang</h1>
+          <p>Mau tau lebih tentang kami?</p>
+          <a href="#navbar" class="btn1"> Ayo Mulai!</a>
+        </div>
+      </div>
+      <div class="navbar" id="navbar">
+        <nav class="container">
+          <h1 class="title">Nambal</h1>
+          <ul class="none">
+            <li><a href="#content" class="nav-btn">Home</a></li>
+            <li class="founder">
+              <a href="#founder" class="nav-btn">Founder</a>
+            </li>
+            <li><a href="#data-pengguna" class="nav-btn">User Table</a></li>
+            <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+          </ul>
+          <a class="navbtn-toggle">&#9776;</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-content">
+        <div id="content" class="center container column">
+          <h1>Apa itu Nambal?</h1>
+          <p>Nambal adalah aplikasi tambal ban online berbasis website</p>
+          <div id="content-item">
+            <article class="card">
+              <h2>Mudah</h2>
+              <img src="aset/1.png" />
+              <p>
+                Mudah, karena hanya dari genggaman ponsel, anda bisa menambal
+                ban anda yang bocor
+              </p>
+            </article>
+            <article class="card default">
+              <h2>Aman</h2>
+              <img src="aset/2.png" />
+              <p>
+                Dimanapun anda berada, anda akan merasa aman karena tidak perlu
+                takut jika sewaktu waktu ban kendaraan anda mengalami kebocoran
+              </p>
+            </article>
+            <article class="card">
+              <h2>Cepat</h2>
+              <img src="aset/3.png" />
+              <p>
+                Cepat!, anda tidak perlu berkeliling mencari tukang tambal ban.
+                tinggal cari via web ini, maka anda akan menemukan tambal ban
+                sekitar anda
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="card center" id="founder">
+          <h2>Pendiri Nambal</h2>
+          <img src="aset/dian.jpg" id="profile" />
+          <p>Dian Setiawan</p>
+          <blockquote>Kita adalah apa yang kita percayai</blockquote>
+          <p>
+            Saya seorang mahasiswa Informatika semester 3 yang senang
+            mempelajari hal-hal baru serta suka bekerja sama dalam sebuat tim.
+          </p>
+          <ul class="socmed">
+            <li>
+              <a href="https://instagram.com/yandian.s"
+                ><img src="aset/instagram.png"
+              /></a>
+            </li>
+            <li>
+              <a href="facebook.com">
+                <img src="aset/facebook.png" />
+              </a>
+            </li>
+            <li>
+              <a href="wa.me/6282252974009"> <img src="aset/wa.png" /></a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <div class="table-content" id="data-pengguna">
+        <table class="center">
+          <thead>
+            <tr>
+              <th colspan="2">Data Pengguna Aplikasi Nambal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tahun 2016</td>
+              <td>2569 Orang</td>
+            </tr>
+            <tr>
+              <td>Tahun 2017</td>
+              <td>5869 Orang</td>
+            </tr>
+            <tr>
+              <td>Tahun 2018</td>
+              <td>7665 Orang</td>
+            </tr>
+            <tr>
+              <td>Tahun 2019</td>
+              <td>8897 Orang</td>
+            </tr>
+            <tr>
+              <td>Tahun 2020</td>
+              <td>9865 Orang</td>
+            </tr>
+            <tr>
+              <td>Tahun 2021</td>
+              <td>10.869 Orang</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="container card" id="contact">
+        <img src="aset/contact.png" class="img-contact" />
+        <form action="#" class="form-contact">
+          <h1 class="center title-contact">Contact Me</h1>
+          <input
+            type="text"
+            class="form nama"
+            name="firstName"
+            placeholder="Nama Depan"
+            required
+          />
+          <input
+            type="text"
+            class="form nama"
+            name="lastName"
+            placeholder="Nama Belakang"
+            required
+          />
+          <input type="email" name="email" placeholder="Email" class="form" />
+          <textarea
+            name="pesan"
+            class="form"
+            cols="30"
+            rows="10"
+            placeholder="Pesan Anda......."
+          ></textarea>
+          <input type="submit" class="btn2 btn-submit" value="Send" />
+        </form>
+      </div>
+    </main>
+    <footer class="center">
+      <p>&copy; Dian Setiawan - 2021</p>
+    </footer>
+    <script src="aset/func.js"></script>
+  </body>
+</html>
